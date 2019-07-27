@@ -1,0 +1,26 @@
+UGeek UPS2 Setup Tools
+http://ugeek.aliexpress.com
+http://ukonline2000.taobao.com
+wget https://github.com/howardqiao/ugeek-ups2-setup/raw/master/ups2_setup.sh
+chmod +x ./ups2_setup.sh
+sudo ./ups2_setup.sh
+             ┌─────────────────┤ UGEEK WORKSHOP UPS2 ├──────────────────┐
+             │ Select the appropriate options:                          │
+             │                                                          │
+             │                1 Select Poweroff GPIO(22)                │
+             │                2 Enable Poweroff function                │
+             │                3 Disable Poweroff function               │
+             │                4 Exit                                    │
+             │                                                          │
+             │                                                          │
+             │                                                          │
+             │                                                          │
+             │                          <Ok>                            │
+             │                                                          │
+             └──────────────────────────────────────────────────────────┘
+
+Option 1: Select poweroff GPIO
+Option 2: Enable Poweroff function
+Option 3: Disable Poweroff function
+Option 4: Exit
+
