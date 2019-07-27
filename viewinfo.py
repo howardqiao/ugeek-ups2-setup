@@ -7,7 +7,6 @@ import struct
 #import logging
 import datetime
 
-# Change 2500 to you battery capacity
 MY_BATTERY_CAP = 2500
 #
 # General Constants 常量
