@@ -1,6 +1,14 @@
 UGeek UPS2 Setup Tools
 http://ugeek.aliexpress.com
 http://ukonline2000.taobao.com
+
+1.Enable I2C in raspi-config
+sudo raspi-config
+-Interfacing Options
+-I2C
+-Enable
+-Yes
+2.Run setup
 wget https://github.com/howardqiao/ugeek-ups2-setup/raw/master/ups2_setup.sh
 chmod +x ./ups2_setup.sh
 sudo ./ups2_setup.sh
@@ -23,4 +31,10 @@ Option 1: Select poweroff GPIO
 Option 2: Enable Poweroff function
 Option 3: Disable Poweroff function
 Option 4: Exit
+3.View battery Info
+wget https://github.com/howardqiao/ugeek-ups2-setup/raw/master/viewinfo.py
+edit viewinfo.py and modify battery capacity
+nano viewinfo.py
+#Change 2500 to your battery capacity (mAh)
+MY_BATTERY_CAP = 2500
 
